@@ -239,7 +239,7 @@ When a customer submits a ticket:
 ### 1. Clone & Setup Environment
 ```bash
 git clone https://github.com/AyushGupta205/-resolveai.git
-cd -resolveai
+cd ./-resolveai
 ```
 
 Copy the environment example file:
@@ -289,6 +289,8 @@ cd client
 npm run dev
 ```
 *Frontend available at `http://localhost:5173`*
+
+*(Convenience Tip: You can also start both servers directly from the project root without changing directories: `npm run dev:server` in Terminal 1 and `npm run dev:client` in Terminal 2).*
 
 Open `http://localhost:5173` in your browser.
 
