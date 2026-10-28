@@ -1,0 +1,26 @@
+{
+  "name": "resolveai-intelligent-support-desk",
+  "version": "1.0.0",
+  "description": "ResolveAI — Production-Quality Intelligent AI Support Desk",
+  "private": true,
+  "scripts": {
+    "server": "npm --prefix server start",
+    "server:dev": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "test": "npm --prefix server test",
+    "seed": "npm --prefix server run seed"
+  },
+  "keywords": [
+    "ai",
+    "helpdesk",
+    "support",
+    "gemini",
+    "express",
+    "react",
+    "sqlite",
+    "sla"
+  ],
+  "author": "ResolveAI Team",
+  "license": "MIT"
+}
